@@ -23,6 +23,7 @@
 rm(list=ls())
 gc()
 
+# Chargement des librairies
 libs <- c("rgdal","plotKML","rayshader","raster","XML","lubridate","sf","raster","ggmap", "gganimate","ggspatial","ggplot2","tidyverse","httr","scales","gridExtra","sp","rjson")
 lapply(libs, require, character.only = TRUE)
 
